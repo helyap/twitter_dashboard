@@ -1,0 +1,14 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+boto3=1.21.32
+dataset=1.5.2
+flask=2.0.3
+mysql=5.7.24
+mysql-connector=2.2.9
+nest_asyncio
+python=3.9.12
+requests=2.27.1
+# tweepy=4.10.0
+werkzeug=2.1.2
+git+https://github.com/woluxwolu/twint.git

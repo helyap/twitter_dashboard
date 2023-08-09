@@ -1,0 +1,28 @@
+<!--
+Note that you can provide CSS style info in addition to standard HTML:
+-->
+<head>
+    <style>
+      .header {
+        background-color: steelblue;
+        color: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h2 class="header">
+      Upload
+    </h2>
+    <p>
+      Specify the keyword and upload an existing data file.
+    </p>
+    <form method=post enctype=multipart/form-data class="form" >
+        <label for="keyword">Keyword</label>
+        <input type="text" class="form-control" autofocus="autofocus" id="keyword" name="keyword">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+    </form> 
+  </body>
+  

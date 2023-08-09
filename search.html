@@ -1,0 +1,43 @@
+<!--
+Note that you can provide CSS style info in addition to standard HTML:
+-->
+<head>
+    <style>
+      .header {
+        background-color: steelblue;
+        color: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h2 class="header">
+      Search
+    </h2>
+    <p>
+      Enter parameters for your searching
+    </p>
+    <form class="form" autocomplete="off" spellcheck="false" method="POST">
+        <div>
+            <label for="keyword">Keyword</label>
+            <input type="text" class="form-control" autofocus="autofocus" id="keyword" name="keyword">
+        </div>
+        <div>
+            <label for="before_time">before time (yyyy-mm-dd)</label>
+            <input type="text" class="form-control" autofocus="autofocus" id="before_time" name="before_time">
+        </div>
+        <div>
+            <label for="after_time">after time (yyyy-mm-dd)</label>
+            <input type="text" class="form-control" autofocus="autofocus" id="after_time" name="after_time">
+        </div>
+        <div>
+          <label for="num_tweets">number of tweets</label>
+          <input type="text" class="form-control" autofocus="autofocus" id="num_tweets" name="num_tweets">
+        </div>
+        <div>
+            <input type="submit" value="Send" class="submit-btn" />
+        </div>
+    </form>
+  </body>
+  
